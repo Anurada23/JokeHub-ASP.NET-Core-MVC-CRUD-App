@@ -1,0 +1,28 @@
+﻿
+
+<h4>Search for Jokes</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SearchJokesResults">
+            
+            <div class="form-group">
+                <label for="SearchPhrase" class="control-label"></label>
+                <input name="SearchPhrase" class="form-control" />
+             
+            </div>
+            <span class="mx-2"></span>
+
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <hr />
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
