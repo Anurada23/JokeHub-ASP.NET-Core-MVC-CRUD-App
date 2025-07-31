@@ -3,7 +3,8 @@
 A full-stack web application developed using ASP.NET Core (MVC) and C#, featuring complete CRUD (Create, Read, Update, Delete) functionality for managing data entities.
 The project follows a layered architecture, utilizing Entity Framework Core for data access and SQL database interaction, and Razor Views for rendering dynamic content.
 
-Key Features
+
+-Key Features
 
 MVC Architecture: Clean separation of concerns through Controllers, Models, and Views.
 Entity Framework Core: Integrated for database modeling, migrations, and data persistence.
@@ -29,7 +30,6 @@ Clone the repository
 Restore NuGet packages
 Apply EF Core migrations
 Run the application via dotnet run or from Visual Studio
-
 
 
 -Future Improvements
